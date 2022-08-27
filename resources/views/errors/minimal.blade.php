@@ -19,7 +19,7 @@
                 <h2 class="error-title">@yield('title')</h2>
                 <p class="error-desc">@yield('message')
                 </p>
-                <a href="index.html" class="btn btn__primary btn__icon btn__xl">
+                <a href="{{ route('index') }}" class="btn btn__primary btn__icon btn__xl">
                   <span>Back To Home</span> <i class="icon-arrow-right"></i>
                 </a>
               </div><!-- /.col-lg-6 -->
