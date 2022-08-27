@@ -1,14 +1,14 @@
 <footer class="footer bg-heading">
     <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/2.png" alt="backgrounds"></div>
-    <div class="footer-contact pt-50 pb-50">
+    <div class="footer-contact pt-30 pb-30">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 col-md-4 col-lg-2">
                     <div class="contact-info">
                         <h6 class="footer-widget__title">Quick Contact</h6>
                         <ul class="contact-list list-unstyled mb-0">
-                            <li><a href="tel:00123968574">+ (002) 0106-1245-741</a></li>
-                            <li><a href="mailto:Mintech@7oroof.com">Mintech@7oroof.com</a></li>
+                            <li><a href="tel:00923364634620">+92 336 4634620</a></li>
+                            <li><a href="mailto:info@reversals.co">info@reversals.co</a></li>
                         </ul>
                     </div><!-- /.contact-info -->
                 </div><!-- /.col-lg-2 -->
@@ -16,11 +16,11 @@
                     <div class="contact-info">
                         <h6 class="footer-widget__title">Our Address</h6>
                         <ul class="contact-list list-unstyled mb-0">
-                            <li>2307 Beverley Rd , New York 11226 U.S.</li>
+                            <li>Cantt Lahore, Pakistan</li>
                         </ul>
                     </div><!-- /.contact-info -->
                 </div><!-- /.col-lg-2 -->
-                <div class="col-sm-4 col-md-4 col-lg-2">
+                {{-- <div class="col-sm-4 col-md-4 col-lg-2">
                     <div class="contact-info">
                         <h6 class="footer-widget__title">Opening Hours</h6>
                         <ul class="contact-list list-unstyled mb-0">
@@ -28,7 +28,7 @@
                             <li>Sat - Sun: 9 am - 8pm</li>
                         </ul>
                     </div><!-- /.contact-info -->
-                </div><!-- /.col-lg-2 -->
+                </div><!-- /.col-lg-2 --> --}}
                 <div class="col-sm-12 col-md-8 col-lg-6">
                     <h6 class="footer-widget__title">Newsletter</h6>
                     <form class="footer-form d-flex mb-0">
@@ -50,9 +50,9 @@
                             changing, and are
                             true partners who care about your future business success.</p>
                         <ul class="social-icons list-unstyled mb-0">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/reversals.co"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/reversals.co"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/reversals_co"><i class="fab fa-twitter"></i></a></li>
                         </ul><!-- /.social-icons -->
                     </div><!-- /.footer-widget__content -->
                 </div><!-- /.col-xl-2 -->
@@ -61,27 +61,26 @@
                     <div class="footer-widget__content">
                         <nav>
                             <ul class="list-unstyled">
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="leadership-team.html">Meet Our Team</a></li>
-                                <li><a href="blog.html">News & Media</a></li>
-                                <li><a href="projects-grid.html">Case Studies</a></li>
-                                <li><a href="contacs.html">Contacts</a></li>
-                                <li><a href="#">Investors</a></li>
+                                <li><a href="{{ route('about-us') }}">About Us</a></li>
+                                <li><a href="{{ route('team') }}">Meet Our Team</a></li>
+                                <li><a href="{{ route('services.show') }}">News & Media</a></li>
+                                <li><a href="{{ route('services.show') }}">Case Studies</a></li>
+                                <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
+                                <li><a href="{{ route('services.show') }}">Investors</a></li>
                             </ul>
                         </nav>
                     </div><!-- /.footer-widget__content -->
                 </div><!-- /.col-lg-2 -->
                 <div class="col-sm-6 col-md-6 col-lg-2 footer-widget footer-widget-nav">
-                    <h6 class="footer-widget__title">Solutions</h6>
+                    <h6 class="footer-widget__title">Services</h6>
                     <div class="footer-widget__content">
                         <nav>
                             <ul class="list-unstyled">
-                                <li><a href="#">IT Management</a></li>
-                                <li><a href="#">Cyber Security</a></li>
-                                <li><a href="#">Cloud Computing</a></li>
-                                <li><a href="#">IT Consulting</a></li>
-                                <li><a href="#">Software Dev</a></li>
-                                <li><a href="#">IT Support</a></li>
+                                <li><a href="{{ route('services.show') }}">Web Development</a></li>
+                                <li><a href="{{ route('services.show') }}">Content Writing</a></li>
+                                <li><a href="{{ route('services.show') }}">Graphic Designing</a></li>
+                                <li><a href="{{ route('services.show') }}">Socual Media Management</a></li>
+                                <li><a href="{{ route('services.show') }}">UI/UX Designing</a></li>
                             </ul>
                         </nav>
                     </div><!-- /.footer-widget__content -->
@@ -91,16 +90,16 @@
                     <div class="footer-widget__content">
                         <nav>
                             <ul class="list-unstyled">
-                                <li><a href="pricing.html">Pricing and plans</a></li>
-                                <li><a href="#">Terms of Service</a></li>
-                                <li><a href="faqs.html">Help & FAQ</a></li>
-                                <li><a href="contacs.html">Contact Us</a></li>
-                                <li><a href="#">Site map</a></li>
+                                <li><a href="{{ route('pricing') }}">Pricing and Plans</a></li>
+                                <li><a href="{{ route('services.show') }}">Terms of Service</a></li>
+                                <li><a href="{{ route('faqs') }}">Help & FAQ</a></li>
+                                <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
+                                <li><a href="{{ route('services.show') }}">Site map</a></li>
                             </ul>
                         </nav>
                     </div><!-- /.footer-widget__content -->
                 </div><!-- /.col-lg-2 -->
-                <div class="col-sm-6 col-md-6 col-lg-2 footer-widget footer-widget-nav">
+                {{-- <div class="col-sm-6 col-md-6 col-lg-2 footer-widget footer-widget-nav">
                     <h6 class="footer-widget__title">We're Hiring</h6>
                     <div class="footer-widget__content">
                         <p class="fz-14 color-white">Interested in joining the Mintech team?</p>
@@ -108,7 +107,7 @@
                             <span>Our Careers</span><i class="icon-arrow-right icon-outlined"></i>
                         </a>
                     </div><!-- /.footer-widget__content -->
-                </div><!-- /.col-lg-2 -->
+                </div><!-- /.col-lg-2 --> --}}
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.footer-primary -->

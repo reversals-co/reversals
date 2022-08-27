@@ -6,7 +6,7 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <ul class="topbar__contact d-flex flex-wrap list-unstyled mb-0">
                             <li>
-                                <i class="icon-phone"></i><a href="tel:+923364634620">+92 336 4634620</a>
+                                <i class="icon-phone"></i><a href="tel:00923364634620">+92 336 4634620</a>
                             </li>
                             <li>
                                 <i class="icon-envelope"></i><a href="mailto:info@reversals.co">info@reversals.co</a>
@@ -18,7 +18,7 @@
                         <div class="d-flex">
                             <ul class="social-icons list-unstyled mb-0 mr-30">
                                 <li><a href="https://www.facebook.com/reversals.co"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.instagram.com/reversals.co/"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/reversals.co"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="https://twitter.com/reversals_co"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                             {{-- <div class="dropdown dropdown__lang">
@@ -86,7 +86,7 @@
                             </li><!-- /.nav-item -->
 
                             <li class="nav__item">
-                                <a href="{{ route('services.show') }}" class="nav__item-link">UI/UX</a>
+                                <a href="{{ route('services.show') }}" class="nav__item-link">UI/UX Designing</a>
                             </li><!-- /.nav-item -->
 
                         </ul><!-- /.dropdown-menu -->
@@ -158,6 +158,14 @@
                             </li><!-- /.nav-item -->
                         </ul><!-- /.dropdown-menu -->
                     </li><!-- /.nav-item --> --}}
+
+                    <li class="nav__item">
+                        <a href="{{ route('pricing') }}" class="nav__item-link">Price & Plans</a>
+                    </li><!-- /.nav-item -->
+
+                    <li class="nav__item">
+                        <a href="{{ route('blogs.index') }}" class="nav__item-link">Blogs</a>
+                    </li><!-- /.nav-item -->
 
                     <li class="nav__item">
                         <a href="{{ route('contact-us') }}" class="nav__item-link">Contact Us</a>
