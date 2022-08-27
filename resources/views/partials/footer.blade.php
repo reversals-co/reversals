@@ -61,12 +61,13 @@
                     <div class="footer-widget__content">
                         <nav>
                             <ul class="list-unstyled">
+                                <li><a href="{{ route('services.index') }}">What We Offer</a></li>
                                 <li><a href="{{ route('about-us') }}">About Us</a></li>
                                 <li><a href="{{ route('team') }}">Meet Our Team</a></li>
-                                <li><a href="{{ route('services.show') }}">News & Media</a></li>
-                                <li><a href="{{ route('services.show') }}">Case Studies</a></li>
+                                <li><a href="{{ route('blogs.index') }}">News & Media</a></li>
                                 <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
-                                <li><a href="{{ route('services.show') }}">Investors</a></li>
+                                <li><a href="{{ route('faqs') }}">Help & FAQs</a></li>
+                                <li><a href="{{ route('why-us') }}">Why Us</a></li>
                             </ul>
                         </nav>
                     </div><!-- /.footer-widget__content -->
@@ -79,7 +80,7 @@
                                 <li><a href="{{ route('services.show') }}">Web Development</a></li>
                                 <li><a href="{{ route('services.show') }}">Content Writing</a></li>
                                 <li><a href="{{ route('services.show') }}">Graphic Designing</a></li>
-                                <li><a href="{{ route('services.show') }}">Socual Media Management</a></li>
+                                <li><a href="{{ route('services.show') }}">Social Media Management</a></li>
                                 <li><a href="{{ route('services.show') }}">UI/UX Designing</a></li>
                             </ul>
                         </nav>

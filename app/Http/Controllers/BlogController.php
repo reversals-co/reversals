@@ -44,7 +44,7 @@ class BlogController extends Controller
      * @param  \App\Models\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function show(Blog $blog)
+    public function show()
     {
         return view('pages.blogs.show');
     }

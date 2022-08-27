@@ -26,7 +26,7 @@
                                     consultative
                                     approach on emerging technology.
                                 </p>
-                                <a href="industries.html" class="btn btn__primary btn__hi mr-30">Our Services</a>
+                                <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our Services</a>
                                 <a href="request-quote.html" class="btn btn__white btn__hi">
                                     <span>Get Started</span>
                                     <i class="icon-arrow-right"></i>
@@ -46,7 +46,7 @@
                                 <p class="slide-item__desc">We are experienced professionals who understand that It services
                                     is
                                     changing, and are true partners who care about your success.</p>
-                                <a href="industries.html" class="btn btn__primary btn__hi mr-30">Our Services</a>
+                                <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our Services</a>
                                 <a href="request-quote.html" class="btn btn__white btn__hi">
                                     <span>Get Started</span>
                                     <i class="icon-arrow-right"></i>
@@ -79,7 +79,7 @@
                             are
                             ready to help.</p>
                     </div><!-- /heading -->
-                    <a href="about-us.html" class="btn btn__primary btn__xl btn__icon mb-30">
+                    <a href="{{ route('about-us') }}" class="btn btn__primary btn__xl btn__icon mb-30">
                         <span>More About Us</span>
                         <i class="icon-arrow-right"></i>
                     </a>

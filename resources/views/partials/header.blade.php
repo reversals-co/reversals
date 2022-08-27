@@ -12,7 +12,7 @@
                                 <i class="icon-envelope"></i><a href="mailto:info@reversals.co">info@reversals.co</a>
                             </li>
                             {{-- <li>
-                                <i class="icon-clock"></i><a href="contact-us.html">Hours: Mon-Fri: 8am – 7pm</a>
+                                <i class="icon-clock"></i><a href="{{ route('contact-us') }}">Hours: Mon-Fri: 8am – 7pm</a>
                             </li> --}}
                         </ul>
                         <div class="d-flex">
@@ -82,7 +82,7 @@
                             </li><!-- /.nav-item -->
 
                             <li class="nav__item">
-                                <a href="{{ route('services.show') }}" class="nav__item-link">Socual Media Management</a>
+                                <a href="{{ route('services.show') }}" class="nav__item-link">Social Media Management</a>
                             </li><!-- /.nav-item -->
 
                             <li class="nav__item">
@@ -128,7 +128,7 @@
                                         </ul>
                                     </div><!-- /.col-sm-6 -->
                                     <div class="col-sm-6 dropdown-menu-col">
-                                        <a href="industries.html"
+                                        <a href="{{ route('services.index') }}"
                                             class="nav__item-link dropdown-menu-title">Industries</a>
                                         <ul class="nav flex-column">
                                             <li class="nav__item"><a class="nav__item-link"
