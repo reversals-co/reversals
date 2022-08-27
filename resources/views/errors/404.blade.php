@@ -1,7 +1,7 @@
 @extends('errors::minimal')
 
 @section('title-meta')
-<title>{{__('Not Found')}}</title>
+    <title>{{ __('Not Found') }}</title>
 @endsection
 
 @section('title', __('Not Found'))

@@ -1,7 +1,7 @@
 @extends('errors::minimal')
 
 @section('title-meta')
-<title>{{__('Page Expired')}}</title>
+    <title>{{ __('Page Expired') }}</title>
 @endsection
 
 @section('title', __('Page Expired'))

@@ -17,10 +17,13 @@
                         </ul>
                         <div class="d-flex">
                             <ul class="social-icons list-unstyled mb-0 mr-30">
-                                <li><a href="https://www.facebook.com/reversals.co"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.instagram.com/reversals.co"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/reversals.co"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/reversals.co"><i
+                                            class="fab fa-instagram"></i></a></li>
                                 <li><a href="https://twitter.com/reversals_co"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/reversals"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/reversals"><i
+                                            class="fab fa-linkedin"></i></a></li>
                             </ul>
                             {{-- <div class="dropdown dropdown__lang">
                                 <button class="dropdown-toggle" id="langDrobdown" data-toggle="dropdown"
@@ -47,6 +50,9 @@
     </div>
     <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
+            <button type="button" class="action__btn action__btn-burgerMenu mr-30 d-none d-lg-block">
+                <i class="icon-nav"></i>
+            </button>
             <a class="navbar-brand" href="{{ route('index') }}">
                 <img src="{{ asset('assets/website') }}/images/logo/logo-light.png" class="logo-light" alt="logo">
                 <img src="{{ asset('assets/website') }}/images/logo/logo-dark.png" class="logo-dark" alt="logo">
@@ -57,17 +63,16 @@
             <div class="collapse navbar-collapse" id="mainNavigation">
                 <ul class="navbar-nav mr-auto ml-auto">
                     <li class="nav__item  has-dropdown">
-                        <a href="{{ route('index') }}"
-                            class="nav__item-link active">Home</a>
+                        <a href="{{ route('index') }}" class="nav__item-link active">Home</a>
                     </li><!-- /.nav-item -->
 
                     <li class="nav__item  has-dropdown">
-                        <a href="{{ route('about-us') }}"
-                            class="nav__item-link">About Us</a>
+                        <a href="{{ route('about-us') }}" class="nav__item-link">About Us</a>
                     </li><!-- /.nav-item -->
 
                     <li class="nav__item  has-dropdown">
-                        <a href="{{ route('services.index') }}" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Services</a>
+                        <a href="{{ route('services.index') }}" data-toggle="dropdown"
+                            class="dropdown-toggle nav__item-link">Services</a>
                         <ul class="dropdown-menu">
 
                             <li class="nav__item">
@@ -83,7 +88,8 @@
                             </li><!-- /.nav-item -->
 
                             <li class="nav__item">
-                                <a href="{{ route('services.show') }}" class="nav__item-link">Social Media Management</a>
+                                <a href="{{ route('services.show') }}" class="nav__item-link">Social Media
+                                    Management</a>
                             </li><!-- /.nav-item -->
 
                             <li class="nav__item">

@@ -26,7 +26,8 @@
                                     consultative
                                     approach on emerging technology.
                                 </p>
-                                <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our Services</a>
+                                <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our
+                                    Services</a>
                                 <a href="request-quote.html" class="btn btn__white btn__hi">
                                     <span>Get Started</span>
                                     <i class="icon-arrow-right"></i>
@@ -46,7 +47,8 @@
                                 <p class="slide-item__desc">We are experienced professionals who understand that It services
                                     is
                                     changing, and are true partners who care about your success.</p>
-                                <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our Services</a>
+                                <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our
+                                    Services</a>
                                 <a href="request-quote.html" class="btn btn__white btn__hi">
                                     <span>Get Started</span>
                                     <i class="icon-arrow-right"></i>
@@ -60,8 +62,8 @@
     </section><!-- /.slider -->
 
     <!-- ========================
-          About Layout 1
-        =========================== -->
+              About Layout 1
+            =========================== -->
     <section class="about-layout1">
         <div class="container">
             <div class="row align-items-center">
@@ -113,8 +115,8 @@
     </section><!-- /.About Layout 1 -->
 
     <!-- ========================
-            Services Layout 2
-        =========================== -->
+                Services Layout 2
+            =========================== -->
     <section class="services-layout2 services-carousel bg-gray pt-130 pb-90">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/banners/7.png" alt="background"></div>
         <div class="container">
@@ -284,8 +286,8 @@
     </section><!-- /.Services Layout 2 -->
 
     <!-- ===========================
-          portfolio layout 3
-        ============================= -->
+              portfolio layout 3
+            ============================= -->
     <section class="portfolio-layout3 pt-130">
         <div class="container">
             <div class="row">
@@ -397,8 +399,8 @@
     </section><!-- /.portfolio layout 3  -->
 
     <!-- =====================
-               Clients
-            ======================== -->
+                   Clients
+                ======================== -->
     <section class="clients border-top pt-50 pb-50">
         <div class="container">
             <div class="row align-items-center">
@@ -440,8 +442,8 @@
     </section><!-- /.clients -->
 
     <!-- =========================
-               Banner layout 3
-        =========================== -->
+                   Banner layout 3
+            =========================== -->
     <section class="banner-layout3 pt-100 pb-0">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/8.jpg" alt="background"></div>
         <div class="container">
@@ -477,8 +479,8 @@
     </section><!-- /.Banner layout 3 -->
 
     <!-- =========================
-          Awards
-          =========================== -->
+              Awards
+              =========================== -->
     <section class="awards pt-20">
         <div class="container">
             <div class="row">
@@ -566,8 +568,8 @@
     </section><!-- /.Awards -->
 
     <!-- =========================
-          Testimonials layout 2
-          =========================  -->
+              Testimonials layout 2
+              =========================  -->
     <section class="testimonials testimonials-layout2 pt-130 pb-130">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/13.jpg" alt="backgrounds"></div>
         <div class="container">
@@ -671,8 +673,8 @@
     </section><!-- /.testimonials 2 -->
 
     <!-- ======================
-              Blog Grid
-        ========================= -->
+                  Blog Grid
+            ========================= -->
     <section class="blog-grid pb-50">
         <div class="container">
             <div class="row">

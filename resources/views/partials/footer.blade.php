@@ -50,10 +50,13 @@
                             changing, and are
                             true partners who care about your future business success.</p>
                         <ul class="social-icons list-unstyled mb-0">
-                            <li><a href="https://www.facebook.com/reversals.co"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.instagram.com/reversals.co"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/reversals.co"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/reversals.co"><i class="fab fa-instagram"></i></a>
+                            </li>
                             <li><a href="https://twitter.com/reversals_co"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/reversals"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/reversals"><i class="fab fa-linkedin"></i></a>
+                            </li>
                         </ul><!-- /.social-icons -->
                     </div><!-- /.footer-widget__content -->
                 </div><!-- /.col-xl-2 -->

@@ -11,8 +11,8 @@
 
 @section('page-content')
     <!-- ========================
-           page title
-        =========================== -->
+               page title
+            =========================== -->
     <section class="page-title page-title-layout2 bg-overlay bg-parallax">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/page-titles/2.jpg" alt="background"></div>
         <div class="container">
@@ -32,8 +32,8 @@
     </section><!-- /.page-title -->
 
     <!-- ========================
-            Secondary Nav
-          =========================== -->
+                Secondary Nav
+              =========================== -->
     <section class="secondary-nav secondary-nav-layout2 sticky-top py-0">
         <div class="container">
             <div class="row">
@@ -53,8 +53,8 @@
     </section><!-- /.Secondary Nav -->
 
     <!-- ========================
-            About Layout 2
-          =========================== -->
+                About Layout 2
+              =========================== -->
     <section class="about-layout2 pb-130">
         <div class="container">
             <div class="row align-items-center">
@@ -99,8 +99,8 @@
     </section><!-- /.About Layout 2 -->
 
     <!-- ======================
-          Features Layout 1
-          ========================= -->
+              Features Layout 1
+              ========================= -->
     <section class="features-layout1 pt-130">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/10.jpg" alt="background"></div>
         <div class="container">
@@ -168,7 +168,8 @@
                                 <a href="#">(002) 01061245741</a></strong>
                         </div><!-- /.col-sm-9 -->
                         <div class="col-sm-3 px-0 d-flex justify-content-end">
-                            <a href="{{ route('contact-us') }}" class="btn btn__primary btn__primary-style2 minwidth-120">Contact
+                            <a href="{{ route('contact-us') }}"
+                                class="btn btn__primary btn__primary-style2 minwidth-120">Contact
                                 Us</a>
                         </div><!-- /.col-sm-3 -->
                     </div><!-- /.row -->
@@ -178,8 +179,8 @@
     </section><!-- /.Features Layout 1 -->
 
     <!-- ===========================
-            portfolio layout 2
-          ============================= -->
+                portfolio layout 2
+              ============================= -->
     <section class="portfolio-layout2 portfolio-layout2-carousel">
         <div class="container">
             <div class="row">
@@ -212,7 +213,8 @@
                                 </a>
                             </div><!-- /.portfolio-content -->
                             <div class="portfolio-item__img">
-                                <a href="case-studies-single.html"><img src="{{ asset('assets/website') }}/images/portfolio/modern/1.jpg"
+                                <a href="case-studies-single.html"><img
+                                        src="{{ asset('assets/website') }}/images/portfolio/modern/1.jpg"
                                         alt="portfolio img"></a>
                             </div><!-- /.portfolio-img -->
                         </div><!-- /.portfolio-item -->
@@ -234,7 +236,8 @@
                                 </a>
                             </div><!-- /.portfolio-content -->
                             <div class="portfolio-item__img">
-                                <a href="case-studies-single.html"><img src="{{ asset('assets/website') }}/images/portfolio/modern/2.jpg"
+                                <a href="case-studies-single.html"><img
+                                        src="{{ asset('assets/website') }}/images/portfolio/modern/2.jpg"
                                         alt="portfolio img"></a>
                             </div><!-- /.portfolio-img -->
                         </div><!-- /.portfolio-item -->
@@ -255,7 +258,8 @@
                                 </a>
                             </div><!-- /.portfolio-content -->
                             <div class="portfolio-item__img">
-                                <a href="case-studies-single.html"><img src="{{ asset('assets/website') }}/images/portfolio/modern/3.jpg"
+                                <a href="case-studies-single.html"><img
+                                        src="{{ asset('assets/website') }}/images/portfolio/modern/3.jpg"
                                         alt="portfolio img"></a>
                             </div><!-- /.portfolio-img -->
                         </div><!-- /.portfolio-item -->
@@ -276,7 +280,8 @@
                                 </a>
                             </div><!-- /.portfolio-content -->
                             <div class="portfolio-item__img">
-                                <a href="case-studies-single.html"><img src="{{ asset('assets/website') }}/images/portfolio/modern/4.jpg"
+                                <a href="case-studies-single.html"><img
+                                        src="{{ asset('assets/website') }}/images/portfolio/modern/4.jpg"
                                         alt="portfolio img"></a>
                             </div><!-- /.portfolio-img -->
                         </div><!-- /.portfolio-item -->
@@ -297,7 +302,8 @@
                                 </a>
                             </div><!-- /.portfolio-content -->
                             <div class="portfolio-item__img">
-                                <a href="case-studies-single.html"><img src="{{ asset('assets/website') }}/images/portfolio/modern/5.jpg"
+                                <a href="case-studies-single.html"><img
+                                        src="{{ asset('assets/website') }}/images/portfolio/modern/5.jpg"
                                         alt="portfolio img"></a>
                             </div><!-- /.portfolio-img -->
                         </div><!-- /.portfolio-item -->
@@ -319,7 +325,8 @@
                                 </a>
                             </div><!-- /.portfolio-content -->
                             <div class="portfolio-item__img">
-                                <a href="case-studies-single.html"><img src="{{ asset('assets/website') }}/images/portfolio/modern/6.jpg"
+                                <a href="case-studies-single.html"><img
+                                        src="{{ asset('assets/website') }}/images/portfolio/modern/6.jpg"
                                         alt="portfolio img"></a>
                             </div><!-- /.portfolio-img -->
                         </div><!-- /.portfolio-item -->
@@ -346,11 +353,12 @@
     </section><!-- /.portfolio layout 2 -->
 
     <!-- =========================
-            Testimonials layout 1
-            =========================  -->
+                Testimonials layout 1
+                =========================  -->
     <section class="testimonials testimonials-layout1 testimonials-has-top-img text-center">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/4.jpg" alt="backgrounds"></div>
-        <img src="{{ asset('assets/website') }}/images/testimonials/testimonials-group.png" alt="testimonials" class="testimonials-top-img">
+        <img src="{{ asset('assets/website') }}/images/testimonials/testimonials-group.png" alt="testimonials"
+            class="testimonials-top-img">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -423,19 +431,24 @@
                         </div>
                         <div class="slider-nav">
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/1.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/1.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/2.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/2.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/3.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/3.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/2.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/2.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/3.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/3.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                         </div><!-- /.slcik-nav -->
                     </div>
@@ -445,8 +458,8 @@
     </section><!-- /.testimonials 1 -->
 
     <!-- =====================
-                 Clients
-              ======================== -->
+                     Clients
+                  ======================== -->
     <section class="clients border-top pt-50 pb-50">
         <div class="container">
             <div class="row align-items-center">

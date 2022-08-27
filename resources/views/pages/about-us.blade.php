@@ -11,8 +11,8 @@
 
 @section('page-content')
     <!-- ========================
-           page title
-        =========================== -->
+               page title
+            =========================== -->
     <section class="page-title page-title-layout1 bg-overlay bg-parallax">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/page-titles/1.jpg" alt="background"></div>
         <div class="container">
@@ -39,8 +39,8 @@
     </section><!-- /.page-title -->
 
     <!-- ========================
-            Secondary Nav
-          =========================== -->
+                Secondary Nav
+              =========================== -->
     <section class="secondary-nav sticky-top py-0">
         <div class="container">
             <div class="row">
@@ -60,8 +60,8 @@
     </section><!-- /.Secondary Nav -->
 
     <!-- ========================
-            About Layout 1
-          =========================== -->
+                About Layout 1
+              =========================== -->
     <section class="about-layout1">
         <div class="container">
             <div class="row align-items-center">
@@ -113,8 +113,8 @@
     </section><!-- /.About Layout 1 -->
 
     <!-- ======================
-          History Timeline
-          ========================= -->
+              History Timeline
+              ========================= -->
     <section class="history-timeline pb-0">
         <div class="history-timeline-bg">
             <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/7.jpg" alt="background"></div>
@@ -224,7 +224,8 @@
                 </div><!-- /.col-lg-5 -->
                 <div class="col-sm-12 col-md-12 col-lg-7">
                     <div class="cta-banner bg-overlay bg-overlay-primary">
-                        <div class="bg-img"><img src="{{ asset('assets/website') }}/images/banners/4.jpg" alt="background"></div>
+                        <div class="bg-img"><img src="{{ asset('assets/website') }}/images/banners/4.jpg"
+                                alt="background"></div>
                         <h4 class="cta-banner__title">Perfect Solutions That Your Business Demands!</h4>
                         <p class="cta-banner__desc">From network and device management to security, we're bringing IT
                             together for
@@ -244,8 +245,8 @@
     </section><!-- /.History Timeline -->
 
     <!-- =========================
-            Awards
-            =========================== -->
+                Awards
+                =========================== -->
     <section class="awards pt-20">
         <div class="container">
             <div class="row">
@@ -333,11 +334,12 @@
     </section><!-- /.Awards -->
 
     <!-- =========================
-            Testimonials layout 1
-            =========================  -->
+                Testimonials layout 1
+                =========================  -->
     <section class="testimonials testimonials-layout1 testimonials-has-top-img text-center">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/4.jpg" alt="backgrounds"></div>
-        <img src="{{ asset('assets/website') }}/images/testimonials/testimonials-group.png" alt="testimonials" class="testimonials-top-img">
+        <img src="{{ asset('assets/website') }}/images/testimonials/testimonials-group.png" alt="testimonials"
+            class="testimonials-top-img">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -410,19 +412,24 @@
                         </div>
                         <div class="slider-nav">
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/1.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/1.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/2.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/2.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/3.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/3.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/2.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/2.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                             <div class="testimonial-item__thumb">
-                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/3.png" alt="author thumb">
+                                <img src="{{ asset('assets/website') }}/images/testimonials/thumbs/3.png"
+                                    alt="author thumb">
                             </div><!-- /.testimonial-thumb -->
                         </div><!-- /.slcik-nav -->
                     </div>
@@ -432,8 +439,8 @@
     </section><!-- /.testimonials 1 -->
 
     <!-- =====================
-                 Clients
-          ======================== -->
+                     Clients
+              ======================== -->
     <section class="clients border-top pt-50 pb-50">
         <div class="container">
             <div class="row align-items-center">
@@ -475,8 +482,8 @@
     </section><!-- /.clients -->
 
     <!-- =========================
-             Banner layout 2
-            =========================== -->
+                 Banner layout 2
+                =========================== -->
     <section class="banner-layout2 pt-0 pb-100">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/8.jpg" alt="background"></div>
         <div class="container">
@@ -542,8 +549,8 @@
     </section><!-- /.Banner layout 2 -->
 
     <!-- ======================
-            Blog Grid
-          ========================= -->
+                Blog Grid
+              ========================= -->
     <section class="blog-grid pb-50">
         <div class="container">
             <div class="row">

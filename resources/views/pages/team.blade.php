@@ -11,8 +11,8 @@
 
 @section('page-content')
     <!-- ========================
-           page title
-        =========================== -->
+               page title
+            =========================== -->
     <section class="page-title page-title-layout3 text-center bg-overlay bg-parallax">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/page-titles/3.jpg" alt="background"></div>
         <div class="container">
@@ -32,8 +32,8 @@
     </section><!-- /.page-title -->
 
     <!-- ========================
-            Secondary Nav
-          =========================== -->
+                Secondary Nav
+              =========================== -->
     <section class="secondary-nav sticky-top py-0">
         <div class="container">
             <div class="row">
@@ -53,8 +53,8 @@
     </section><!-- /.Secondary Nav -->
 
     <!-- ========================
-              Team layout 1
-          ========================== -->
+                  Team layout 1
+              ========================== -->
     <section class="team-layout1 text-center pb-40">
         <div class="container">
             <div class="row">

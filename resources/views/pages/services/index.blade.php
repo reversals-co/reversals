@@ -11,8 +11,8 @@
 
 @section('page-content')
     <!-- ========================
-           page title
-        =========================== -->
+                   page title
+                =========================== -->
     <section class="page-title page-title-layout10 bg-overlay bg-parallax text-center">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/page-titles/10.jpg" alt="background"></div>
         <div class="container">
@@ -46,8 +46,8 @@
     </section><!-- /.page-title -->
 
     <!-- ========================
-              Services Layout 1
-          =========================== -->
+                      Services Layout 1
+                  =========================== -->
     <section class="services-layout1 bg-no-repeat bg-size-auto bg-top-right pt-130 pb-90">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/6.png" alt="background"></div>
         <div class="container">
@@ -146,8 +146,7 @@
                                 than 17000
                                 organizations in 90+ countries.</p>
                         </div>
-                        <a href="{{ route('services.show') }}"
-                            class="btn btn__white btn__bordered btn__icon btn__xl">
+                        <a href="{{ route('services.show') }}" class="btn btn__white btn__bordered btn__icon btn__xl">
                             <span>Find Your Solution</span>
                             <i class="icon-arrow-right"></i>
                         </a>
@@ -158,8 +157,8 @@
     </section><!-- /.Services Layout 1 -->
 
     <!-- =========================
-            Testimonials layout 1
-            =========================  -->
+                    Testimonials layout 1
+                    =========================  -->
     <section class="testimonials testimonials-layout1 testimonials-has-top-img text-center">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/4.jpg" alt="backgrounds"></div>
         <img src="{{ asset('assets/website') }}/images/testimonials/testimonials-group.png" alt="testimonials"
@@ -263,8 +262,8 @@
     </section><!-- /.testimonials 1 -->
 
     <!-- =====================
-               Clients
-            ======================== -->
+                       Clients
+                    ======================== -->
     <section class="clients border-top pt-50 pb-50">
         <div class="container">
             <div class="row align-items-center">
@@ -309,8 +308,8 @@
     </section><!-- /.clients -->
 
     <!-- =========================
-             Banner layout 1
-            =========================== -->
+                     Banner layout 1
+                    =========================== -->
     <section class="banner-layout1 pt-90 pb-90 bg-overlay bg-overlay-primary">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/banners/3.jpg" alt="background"></div>
         <div class="container-fluid">
@@ -418,8 +417,8 @@
     </section><!-- /.Banner layout 1 -->
 
     <!-- ===========================
-            portfolio grid
-          ============================= -->
+                    portfolio grid
+                  ============================= -->
     <section class="portfolio-grid pb-60">
         <div class="container">
             <div class="row">

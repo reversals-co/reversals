@@ -1,7 +1,7 @@
 @extends('errors::minimal')
 
 @section('title-meta')
-<title>{{__('Forbidden')}}</title>
+    <title>{{ __('Forbidden') }}</title>
 @endsection
 
 @section('title', __('Forbidden'))

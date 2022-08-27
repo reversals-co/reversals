@@ -11,8 +11,8 @@
 
 @section('page-content')
     <!-- =========================
-                  Google Map
-          =========================  -->
+                      Google Map
+              =========================  -->
     <section class="google-map py-0">
         <div id="map" style="height: 500px;"></div>
         <script src="{{ asset('assets/website') }}/js/google-map.js"></script>
@@ -21,8 +21,8 @@
     </section><!-- /.GoogleMap -->
 
     <!-- ==========================
-              contact layout 1
-          =========================== -->
+                  contact layout 1
+              =========================== -->
     <section class="contact-layout1">
         <div class="container">
             <div class="row">
@@ -78,7 +78,8 @@
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-12 col-md-12 col-lg-5 offset-lg-1">
                     <div class="contact-panel__info bg-overlay bg-overlay-primary">
-                        <div class="bg-img"><img src="{{ asset('assets/website') }}/images/contact/1.jpg" alt="banner"></div>
+                        <div class="bg-img"><img src="{{ asset('assets/website') }}/images/contact/1.jpg" alt="banner">
+                        </div>
                         <div class="contact-block">
                             <h5 class="contact-block__title">Our Location</h5>
                             <ul class="contact-block__list list-unstyled">
@@ -110,8 +111,8 @@
     </section><!-- /.contact layout 1 -->
 
     <!-- ==========================
-             Contact Info
-          ============================ -->
+                 Contact Info
+              ============================ -->
     <section class="contact-info pt-0 pb-70">
         <div class="container">
             <div class="row">

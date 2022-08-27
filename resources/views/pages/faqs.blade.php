@@ -30,8 +30,8 @@
     </section><!-- /.page-title -->
 
     <!-- ========================
-            Secondary Nav
-          =========================== -->
+                Secondary Nav
+              =========================== -->
     <section class="secondary-nav sticky-top py-0">
         <div class="container">
             <div class="row">
@@ -51,8 +51,8 @@
     </section><!-- /.Secondary Nav -->
 
     <!-- ======================
-             FAQ
-          ========================= -->
+                 FAQ
+              ========================= -->
     <section class="faq pt-130 pb-100">
         <div class="container">
             <div class="row" id="accordion">
@@ -186,8 +186,8 @@
     </section><!-- /.FAQ -->
 
     <!-- ======================
-          Features Layout 2
-          ========================= -->
+              Features Layout 2
+              ========================= -->
     <section class="features-layout2 pt-130 pb-0 mb-130">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/7.jpg" alt="background"></div>
         <div class="container">
@@ -268,8 +268,8 @@
     </section><!-- /.Features Layout 2 -->
 
     <!-- =========================
-            Awards
-            =========================== -->
+                Awards
+                =========================== -->
     <section class="awards pt-20">
         <div class="container">
             <div class="row">

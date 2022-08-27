@@ -11,8 +11,8 @@
 
 @section('page-content')
     <!-- ========================
-           page title
-        =========================== -->
+               page title
+            =========================== -->
     <section class="page-title page-title-layout15 text-center">
         <div class="container">
             <div class="row align-items-center">
@@ -32,8 +32,8 @@
     </section><!-- /.page-title -->
 
     <!-- ======================
-            Blog Single
-          ========================= -->
+                Blog Single
+              ========================= -->
     <section class="blog blog-single pt-0 pb-40">
         <div class="container">
             <div class="row">
@@ -181,7 +181,8 @@
                                 <ul class="nested__comment list-unstyled">
                                     <li class="comment__item">
                                         <div class="comment__avatar">
-                                            <img src="{{ asset('assets/website') }}/images/blog/author/3.jpg" alt="avatar">
+                                            <img src="{{ asset('assets/website') }}/images/blog/author/3.jpg"
+                                                alt="avatar">
                                         </div>
                                         <div class="comment__content">
                                             <h5 class="comment__author">Mike Dooley</h5>
@@ -250,7 +251,8 @@
                                 <!-- post item #1 -->
                                 <div class="widget-post-item d-flex align-items-center">
                                     <div class="widget-post__img">
-                                        <a href="#"><img src="{{ asset('assets/website') }}/images/blog/grid/2.jpg" alt="thumb"></a>
+                                        <a href="#"><img src="{{ asset('assets/website') }}/images/blog/grid/2.jpg"
+                                                alt="thumb"></a>
                                     </div><!-- /.widget-post-img -->
                                     <div class="widget-post__content">
                                         <span class="widget-post__date">Sep 19, 2020</span>
@@ -262,7 +264,8 @@
                                 <!-- post item #2 -->
                                 <div class="widget-post-item d-flex align-items-center">
                                     <div class="widget-post__img">
-                                        <a href="#"><img src="{{ asset('assets/website') }}/images/blog/grid/3.jpg" alt="thumb"></a>
+                                        <a href="#"><img src="{{ asset('assets/website') }}/images/blog/grid/3.jpg"
+                                                alt="thumb"></a>
                                     </div><!-- /.widget-post-img -->
                                     <div class="widget-post__content">
                                         <span class="widget-post__date">July 7, 2020</span>
@@ -274,7 +277,8 @@
                                 <!-- post item #3 -->
                                 <div class="widget-post-item d-flex align-items-center">
                                     <div class="widget-post__img">
-                                        <a href="#"><img src="{{ asset('assets/website') }}/images/blog/grid/6.jpg" alt="thumb"></a>
+                                        <a href="#"><img src="{{ asset('assets/website') }}/images/blog/grid/6.jpg"
+                                                alt="thumb"></a>
                                     </div><!-- /.widget-post-img -->
                                     <div class="widget-post__content">
                                         <span class="widget-post__date">March 13, 2020</span>
@@ -289,15 +293,20 @@
                             <h5 class="widget__title">Services</h5>
                             <div class="widget-content">
                                 <ul class="list-unstyled">
-                                    <li><a href="{{ route('services.show') }}"><span>IT Management</span><span class="cat-count">9</span></a>
+                                    <li><a href="{{ route('services.show') }}"><span>IT Management</span><span
+                                                class="cat-count">9</span></a>
                                     </li>
-                                    <li><a href="{{ route('services.show') }}"><span>Cyber Security</span><span class="cat-count">2</span></a>
+                                    <li><a href="{{ route('services.show') }}"><span>Cyber Security</span><span
+                                                class="cat-count">2</span></a>
                                     </li>
-                                    <li><a href="{{ route('services.show') }}"><span>Cloud Computing</span><span class="cat-count">5</span></a>
+                                    <li><a href="{{ route('services.show') }}"><span>Cloud Computing</span><span
+                                                class="cat-count">5</span></a>
                                     </li>
-                                    <li><a href="{{ route('services.show') }}"><span>IT Consulting</span><span class="cat-count">1</span></a>
+                                    <li><a href="{{ route('services.show') }}"><span>IT Consulting</span><span
+                                                class="cat-count">1</span></a>
                                     </li>
-                                    <li><a href="{{ route('services.show') }}"><span>Software Dev</span><span class="cat-count">7</span></a>
+                                    <li><a href="{{ route('services.show') }}"><span>Software Dev</span><span
+                                                class="cat-count">7</span></a>
                                     </li>
                                 </ul>
                             </div><!-- /.widget-content -->

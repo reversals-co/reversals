@@ -1,7 +1,7 @@
 @extends('errors::minimal')
 
 @section('title-meta')
-<title>{{__('Too Many Requests')}}</title>
+    <title>{{ __('Too Many Requests') }}</title>
 @endsection
 
 @section('title', __('Too Many Requests'))
