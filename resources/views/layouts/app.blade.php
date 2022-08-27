@@ -17,6 +17,8 @@
 
         @include('partials.footer')
 
+        @include('partials.sidebar')
+
         <div class="search-popup">
             <button type="button" class="search-popup__close"><i class="fas fa-times"></i></button>
             <form class="search-popup__form">
