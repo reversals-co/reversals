@@ -20,6 +20,7 @@
                                 <li><a href="https://www.facebook.com/reversals.co"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://www.instagram.com/reversals.co"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="https://twitter.com/reversals_co"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/reversals"><i class="fab fa-linkedin"></i></a></li>
                             </ul>
                             {{-- <div class="dropdown dropdown__lang">
                                 <button class="dropdown-toggle" id="langDrobdown" data-toggle="dropdown"
