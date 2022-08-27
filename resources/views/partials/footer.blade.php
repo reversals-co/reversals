@@ -46,9 +46,7 @@
                     <div class="footer-widget__content">
                         <img src="{{ asset('assets/website') }}/images/logo/logo-light.png" alt="logo"
                             class="mb-30">
-                        <p class="color-gray mb-40">We are experienced professionals who understand that It services is
-                            changing, and are
-                            true partners who care about your future business success.</p>
+                        <p class="color-gray mb-40">We are a team of highly skilled people, most having appreciable work experience in diverse areas of Technological Field. Our aim is to make  our client’s expectations higher in the form of value, quality and satisfaction.</p>
                         <ul class="social-icons list-unstyled mb-0">
                             <li><a href="https://www.facebook.com/reversals.co"><i class="fab fa-facebook-f"></i></a>
                             </li>
