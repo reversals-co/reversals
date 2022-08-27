@@ -28,7 +28,7 @@
                                 </p>
                                 <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our
                                     Services</a>
-                                <a href="request-quote.html" class="btn btn__white btn__hi">
+                                <a href="{{ route('request-qoute') }}" class="btn btn__white btn__hi">
                                     <span>Get Started</span>
                                     <i class="icon-arrow-right"></i>
                                 </a>
@@ -49,7 +49,7 @@
                                     changing, and are true partners who care about your success.</p>
                                 <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our
                                     Services</a>
-                                <a href="request-quote.html" class="btn btn__white btn__hi">
+                                <a href="{{ route('request-qoute') }}" class="btn btn__white btn__hi">
                                     <span>Get Started</span>
                                     <i class="icon-arrow-right"></i>
                                 </a>
@@ -582,7 +582,7 @@
                         business
                         safe &
                         ensure high availability.</h3>
-                    <a href="request-quote.html"
+                    <a href="{{ route('request-qoute') }}"
                         class="btn btn__white btn__bordered btn__icon btn__xl minwidth-170 mb-40">
                         <span>Get Started</span>
                         <i class="icon-arrow-right"></i>

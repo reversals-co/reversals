@@ -182,7 +182,7 @@
             </div><!-- /.navbar-collapse -->
             <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
                 <li class="d-none d-xl-block">
-                    <a href="request-quote.html" class="btn btn__secondary action__btn-contact">Request A Quote</a>
+                    <a href="{{ route('request-qoute') }}" class="btn btn__secondary action__btn-contact">Request A Quote</a>
                 </li>
                 <li>
                     <button class="action__btn action__btn-search">

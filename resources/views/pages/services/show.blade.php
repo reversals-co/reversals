@@ -21,7 +21,7 @@
                     <span class="pagetitle__subheading">Legal Stuff & Law Firms</span>
                     <h1 class="pagetitle__heading mb-30">While you can’t predict unexpected events, we’ll ensure right
                         precautions!</h1>
-                    <a href="request-quote.html" class="btn btn__white btn__xl">Request A Demo</a>
+                    <a href="{{ route('request-qoute') }}" class="btn btn__white btn__xl">Request A Demo</a>
                 </div><!-- /.col-xl-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
@@ -458,7 +458,7 @@
                                     </ul>
                                 </div><!-- /.heading -->
                                 <div class="d-flex flex-wrap">
-                                    <a href="request-quote.html" class="btn btn__secondary btn__secondary-style2 mr-30">
+                                    <a href="{{ route('request-qoute') }}" class="btn btn__secondary btn__secondary-style2 mr-30">
                                         Request A Demo</a>
                                     <a href="{{ route('services.index') }}"
                                         class="btn btn__white btn__bordered btn__icon">
