@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Storage;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,11 +15,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        Storage::makeDirectory('public/storage/adminpanel/admins');
+        Storage::makeDirectory('public/storage/website/blogs');
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        \App\Models\Admin::factory(5)->create();
+        \App\Models\BlogCategory::factory(5)->create();
+        \App\Models\Blog::factory(15)->create();
+        \App\Models\Service::factory(8)->create();
     }
 }
