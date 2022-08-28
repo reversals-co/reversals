@@ -47,7 +47,7 @@ class ContactUsController extends Controller
             //     'message' => $inputs['contact-message'],
             //     'is_terms_policy_checked' => $request->filled('terms') ? true : false,
             // ]);
-            Mail::to('mianhamza7262@gmail.com')->queue(new ContactUsMail());
+            Mail::to('mianhamza7262@gmail.com')->send(new ContactUsMail());
 
             return '<div class="alert alert-success" role="alert">Thank you. We will contact you shortly.</div>';
         } catch (\Throwable $th) {
