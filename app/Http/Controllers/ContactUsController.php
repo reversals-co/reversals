@@ -37,7 +37,7 @@ class ContactUsController extends Controller
      */
     public function store(Request $request)
     {
-        try {
+        // try {
             $inputs = $request->input();
             // $contactUsData = ContactUs::create([
             //     'name' => $inputs['contact-name'],
@@ -50,9 +50,9 @@ class ContactUsController extends Controller
             Mail::to('mianhamza7262@gmail.com')->send(new ContactUsMail());
 
             return '<div class="alert alert-success" role="alert">Thank you. We will contact you shortly.</div>';
-        } catch (\Throwable $th) {
-            return '<div class="alert alert-danger" role="alert">Error: Something Went Wrong !</div>';
-        }
+        // } catch (\Throwable $th) {
+        //     return '<div class="alert alert-danger" role="alert">Error: Something Went Wrong !</div>';
+        // }
 
     }
 
