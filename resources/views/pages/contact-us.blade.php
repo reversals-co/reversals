@@ -10,9 +10,8 @@
 @endsection
 
 @section('page-content')
-    <!-- =========================
-                      Google Map
-              =========================  -->
+
+    {{-- Google Map --}}
     <section class="google-map py-0">
         <div id="map" style="height: 500px;"></div>
         <script src="{{ asset('assets/website') }}/js/google-map.js"></script>
@@ -20,14 +19,13 @@
         <!-- CLICK HERE (https://developers.google.com/maps/documentation/embed/get-api-key) TO  LERAN MORE ABOUT GOOGLE MAPS API KEY -->
     </section><!-- /.GoogleMap -->
 
-    <!-- ==========================
-                  contact layout 1
-              =========================== -->
+    {{-- contact us form --}}
     <section class="contact-layout1">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                    <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
+                    <form class="contact-panel__form" method="post" action="{{ route('contact-us.store') }}" id="contactForm">
+                        @csrf
                         <div class="row">
                             <div class="col-sm-12">
                                 <h4 class="contact-panel__title">Get In Touch</h4>
@@ -66,7 +64,7 @@
                                     <textarea class="form-control" placeholder="Describe your inquirey!" id="contact-message" name="contact-message"></textarea>
                                 </div>
                                 <div class="custom-control custom-checkbox d-flex align-items-center  mb-20">
-                                    <input type="checkbox" class="custom-control-input" id="terms">
+                                    <input type="checkbox" class="custom-control-input" id="terms" name="contact-terms">
                                     <label class="custom-control-label" for="terms">I accept the privacy and
                                         terms.</label>
                                 </div>
@@ -76,6 +74,7 @@
                         </div><!-- /.row -->
                     </form>
                 </div><!-- /.col-lg-6 -->
+
                 <div class="col-sm-12 col-md-12 col-lg-5 offset-lg-1">
                     <div class="contact-panel__info bg-overlay bg-overlay-primary">
                         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/contact/1.jpg" alt="banner">
@@ -110,10 +109,8 @@
         </div><!-- /.container -->
     </section><!-- /.contact layout 1 -->
 
-    <!-- ==========================
-                 Contact Info
-              ============================ -->
-    <section class="contact-info pt-0 pb-70">
+    {{-- Office Adresses --}}
+    {{-- <section class="contact-info pt-0 pb-70">
         <div class="container">
             <div class="row">
                 <!-- Contact panel #1 -->
@@ -154,8 +151,9 @@
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-    </section><!-- /.Contact Info -->
+    </section><!-- /.Contact Info --> --}}
 @endsection
 
 @section('custom-script')
+    <script src="{{ asset('assets/website') }}/js/google-map.js"></script>
 @endsection

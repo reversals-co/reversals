@@ -13,7 +13,7 @@
     03- Sticky Navbar
     04- Scroll Top Button
     05- Close Topbar
-    06- Set Background-img to section 
+    06- Set Background-img to section
     07- Add active class to accordions
     08- Contact Form validation
     09- Slick Carousel
@@ -21,7 +21,7 @@
     11- CounterUp
     12- NiceSelect Plugin
     13- portfolio Filtering and Sorting
-     
+
  ----------------------------*/
 
 $(function () {
@@ -179,21 +179,22 @@ $(function () {
     });
 
     /*==========  Contact Form validation  ==========*/
-    var contactForm = $("#contactForm"),
-        contactResult = $('.contact-result');
+    var contactForm = $("#contactForm"), contactResult = $('.contact-result');
     contactForm.validate({
         debug: false,
         submitHandler: function (contactForm) {
             $(contactResult, contactForm).html('Please Wait...');
             $.ajax({
                 type: "POST",
-                url: "assets/php/contact.php",
+                url: contactForm.action,
                 data: $(contactForm).serialize(),
                 timeout: 20000,
                 success: function (msg) {
-                    $(contactResult, contactForm).html('<div class="alert alert-success" role="alert"><strong>Thank you. We will contact you shortly.</strong></div>').delay(3000).fadeOut(2000);
+                    $(contactResult, contactForm).html(msg).delay(3000).fadeOut(2000);
                 },
-                error: $('.thanks').show()
+                error: function(msg) {
+                    $(contactResult, contactForm).html(msg).delay(3000).fadeOut(2000);
+                }
             });
             return false;
         }

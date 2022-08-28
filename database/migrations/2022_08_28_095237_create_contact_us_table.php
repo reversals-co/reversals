@@ -13,15 +13,19 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('services', function (Blueprint $table) {
+        Schema::create('contact_us', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('slug')->unique();
-            $table->longText('summary')->nullable();
-            $table->string('image')->default('banner.png');
-            $table->longText('description')->nullable();
+            $table->string('email');
+            $table->string('phone');
+            $table->longText('subject')->nullable();
+            $table->longText('message')->nullable();
+            $table->longText('our_comment')->nullable();
+            $table->string('status')->default('Not Reviewed');
+            $table->boolean('is_terms_policy_checked')->nullable();
+            $table->string('website')->nullable();
 
-            $table->foreignId('admin_id')->nullable();
+            $table->foreignId('admin_id')->nullable();// query handled by
             $table->foreign('admin_id')->references('id')->on('admins')->onDelete('set null');
 
             $table->softDeletes();
@@ -36,6 +40,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('services');
+        Schema::dropIfExists('contact_us');
     }
 };

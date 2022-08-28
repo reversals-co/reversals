@@ -38,3 +38,8 @@ Route::controller(App\Http\Controllers\BlogController::class)->prefix('blogs')->
     Route::get('/', 'index')->name('index');
     Route::get('/show', 'show')->name('show');
 });
+
+//contact-us
+Route::controller(App\Http\Controllers\ContactUsController::class)->prefix('contact-us')->name('contact-us.')->group(function () {
+    Route::post('/store', 'store')->name('store');
+});
