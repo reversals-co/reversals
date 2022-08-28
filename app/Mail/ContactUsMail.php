@@ -28,6 +28,7 @@ class ContactUsMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('mail.contact-us-mail');
+        return $this->markdown('mail.contact-us-mail')
+            ->subject('You have Recived Contact Us Message');
     }
 }

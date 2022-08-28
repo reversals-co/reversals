@@ -28,6 +28,7 @@ class ContactUsConfirmationMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('mail.contact-us-confirmation-mail');
+        return $this->markdown('mail.contact-us-confirmation-mail')
+            ->subject('Contact Us Confirmation');
     }
 }

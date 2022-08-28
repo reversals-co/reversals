@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactUsConfirmationMail;
 use App\Mail\ContactUsMail;
 use App\Models\ContactUs;
 use Illuminate\Http\Request;
@@ -48,7 +49,7 @@ class ContactUsController extends Controller
             //     'is_terms_policy_checked' => $request->filled('terms') ? true : false,
             // ]);
             Mail::to('info@reversals.co')->send(new ContactUsMail());
-            Mail::to($inputs['contact-email'])->send(new ContactUsMail());
+            Mail::to($inputs['contact-email'])->send(new ContactUsConfirmationMail());
 
             return '<div class="alert alert-success" role="alert">Thank you. We will contact you shortly.</div>';
         } catch (\Throwable $th) {
