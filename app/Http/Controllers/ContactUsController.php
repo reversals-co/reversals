@@ -37,18 +37,23 @@ class ContactUsController extends Controller
      */
     public function store(Request $request)
     {
-        $inputs = $request->input();
-        // $contactUsData = ContactUs::create([
-        //     'name' => $inputs['contact-name'],
-        //     'email' => $inputs['contact-email'],
-        //     'phone' => $inputs['contact-phone'],
-        //     'website' => $inputs['contact-website'],
-        //     'message' => $inputs['contact-message'],
-        //     'is_terms_policy_checked' => $request->filled('terms') ? true : false,
-        // ]);
-        Mail::to('mianhamza7262@gmail.com')->queue(new ContactUsMail());
+        try {
+            $inputs = $request->input();
+            // $contactUsData = ContactUs::create([
+            //     'name' => $inputs['contact-name'],
+            //     'email' => $inputs['contact-email'],
+            //     'phone' => $inputs['contact-phone'],
+            //     'website' => $inputs['contact-website'],
+            //     'message' => $inputs['contact-message'],
+            //     'is_terms_policy_checked' => $request->filled('terms') ? true : false,
+            // ]);
+            Mail::to('mianhamza7262@gmail.com')->queue(new ContactUsMail());
 
-        return '<div class="alert alert-success" role="alert">Thank you. We will contact you shortly.</div>';
+            return '<div class="alert alert-success" role="alert">Thank you. We will contact you shortly.</div>';
+        } catch (\Throwable $th) {
+            return '<div class="alert alert-danger" role="alert">Error: Something Went Wrong !</div>';
+        }
+
     }
 
     /**
