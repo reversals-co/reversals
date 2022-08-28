@@ -37,7 +37,7 @@ class ContactUsController extends Controller
      */
     public function store(Request $request)
     {
-        // try {
+        try {
             $inputs = $request->input();
             // $contactUsData = ContactUs::create([
             //     'name' => $inputs['contact-name'],
@@ -47,12 +47,13 @@ class ContactUsController extends Controller
             //     'message' => $inputs['contact-message'],
             //     'is_terms_policy_checked' => $request->filled('terms') ? true : false,
             // ]);
-            Mail::to('mianhamza7262@gmail.com')->send(new ContactUsMail());
+            Mail::to('info@reversals.co')->send(new ContactUsMail());
+            Mail::to($inputs['contact-email'])->send(new ContactUsMail());
 
             return '<div class="alert alert-success" role="alert">Thank you. We will contact you shortly.</div>';
-        // } catch (\Throwable $th) {
-        //     return '<div class="alert alert-danger" role="alert">Error: Something Went Wrong !</div>';
-        // }
+        } catch (\Throwable $th) {
+            return '<div class="alert alert-danger" role="alert">Error: Something Went Wrong !</div>';
+        }
 
     }
 
