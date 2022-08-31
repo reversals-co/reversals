@@ -15,7 +15,7 @@
     <section class="google-map py-0">
         <div id="map" style="height: 500px;"></div>
         <script src="{{ asset('assets/website') }}/js/google-map.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key={{config('services.google_map.api_key')}}&callback=initMap" async defer></script>
         <!-- CLICK HERE (https://developers.google.com/maps/documentation/embed/get-api-key) TO  LERAN MORE ABOUT GOOGLE MAPS API KEY -->
     </section><!-- /.GoogleMap -->
 
