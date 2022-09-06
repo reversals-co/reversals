@@ -396,7 +396,7 @@
     <!-- =====================
                        Clients
                     ======================== -->
-    <section class="clients border-top pt-50 pb-50">
+    {{-- <section class="clients border-top pt-50 pb-50">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -434,7 +434,7 @@
                 </div><!-- /.col-lg-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-    </section><!-- /.clients -->
+    </section><!-- /.clients --> --}}
 
     <!-- =========================
                        Banner layout 3
