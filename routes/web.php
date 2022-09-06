@@ -26,6 +26,7 @@ Route::get('/team', function () { return view('pages/team'); })->name('team');
 Route::get('/comming-soon', function () { return view('pages/comming-soon'); })->name('comming-soon');
 Route::get('/page-not-found', function () { return view('pages/404'); })->name('404');
 Route::get('/request-qoute', function () { return view('pages/request-qoute'); })->name('request-qoute');
+Route::get('/technologies', function () { return view('pages/technologies'); })->name('technologies');
 
 //services
 Route::controller(App\Http\Controllers\ServiceController::class)->prefix('services')->name('services.')->group(function () {

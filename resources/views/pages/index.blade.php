@@ -12,7 +12,7 @@
 @section('page-content')
     <section class="slider">
         <div class="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0"
-            data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
+            data-slick='{"slidesToShow":"1", "arrows": false, "dots":"true", data-autoplay="true", "speed":300, "fade": true,"cssEase": "linear"}'>
             <div class="slide-item align-v-h bg-overlay">
                 <div class="bg-img"><img src="{{ asset('assets/website') }}/images/sliders/5.jpg" alt="slide img"></div>
                 <div class="container">
@@ -28,10 +28,10 @@
                                 </p>
                                 <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our
                                     Services</a>
-                                <a href="{{ route('request-qoute') }}" class="btn btn__white btn__hi">
+                                {{-- <a href="{{ route('request-qoute') }}" class="btn btn__white btn__hi">
                                     <span>Get Started</span>
                                     <i class="icon-arrow-right"></i>
-                                </a>
+                                </a> --}}
                             </div><!-- /.slide-content -->
                         </div><!-- /.col-xl-7 -->
                     </div><!-- /.row -->
@@ -49,10 +49,10 @@
                                     changing, and are true partners who care about your success.</p>
                                 <a href="{{ route('services.index') }}" class="btn btn__primary btn__hi mr-30">Our
                                     Services</a>
-                                <a href="{{ route('request-qoute') }}" class="btn btn__white btn__hi">
+                                {{-- <a href="{{ route('request-qoute') }}" class="btn btn__white btn__hi">
                                     <span>Get Started</span>
                                     <i class="icon-arrow-right"></i>
-                                </a>
+                                </a> --}}
                             </div><!-- /.slide-content -->
                         </div><!-- /.col-xl-7 -->
                     </div><!-- /.row -->
@@ -62,35 +62,30 @@
     </section><!-- /.slider -->
 
     <!-- ========================
-              About Layout 1
-            =========================== -->
+                  About Layout 1
+                =========================== -->
     <section class="about-layout1">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="heading-layout2 mb-30">
-                        <h2 class="heading__subtitle">Trusted By The World's Best Organizations</h2>
-                        <h3 class="heading__title mb-30">Our technology allows you to offer latest software to your possible
-                            customers!
-                        </h3>
-                        <p class="heading__desc mb-25">Mintech has been helping organizations throughout the World to manage
-                            their
-                            IT with our unique approach to technology management and consultancy solutions. As one of the
-                            world's
-                            largest ITService Providers, our deep pool of over 130 certified engineers and IT support staff
-                            are
-                            ready to help.</p>
+                        {{-- <h2 class="heading__subtitle">Trusted By The World's Best Organizations</h2> --}}
+                        <h3 class="heading__title mb-30">Your dream needs our solution</h3>
+                        <p class="heading__desc mb-25">We are a team of highly skilled people, having appreciable work
+                            experience in diverse areas of IT field. Our aim has always been to make our client’s
+                            expectations higher in the form of value, quality, satisfaction and we promise to continue it.
+                        </p>
                     </div><!-- /heading -->
                     <a href="{{ route('about-us') }}" class="btn btn__primary btn__xl btn__icon mb-30">
                         <span>More About Us</span>
                         <i class="icon-arrow-right"></i>
                     </a>
-                    <img src="{{ asset('assets/website') }}/images/about/singnture.png" alt="singnture" class="d-block">
+                    {{-- <img src="{{ asset('assets/website') }}/images/about/singnture.png" alt="singnture" class="d-block"> --}}
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="about__img">
                         <img src="{{ asset('assets/website') }}/images/about/1.jpg" alt="about">
-                        <div class="cta-banner">
+                        {{-- <div class="cta-banner">
                             <div class="slick-carousel" data-slick='{"slidesToShow": 1, "arrows": false, "dots": true}'>
                                 <div class="cta-banner__item">
                                     <div class="cta-banner__icon"><i class="icon-technician"></i></div>
@@ -107,7 +102,7 @@
                                     </h4>
                                 </div><!-- /.cta-banner__item -->
                             </div><!-- /.slick-carousel -->
-                        </div><!-- /.cta-banner -->
+                        </div><!-- /.cta-banner --> --}}
                     </div><!-- /.about-img -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
@@ -115,8 +110,8 @@
     </section><!-- /.About Layout 1 -->
 
     <!-- ========================
-                Services Layout 2
-            =========================== -->
+                    Services Layout 2
+                =========================== -->
     <section class="services-layout2 services-carousel bg-gray pt-130 pb-90">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/banners/7.png" alt="background"></div>
         <div class="container">
@@ -133,7 +128,7 @@
                                 organizations in 90+ countries.</p>
                         </div>
                         <a href="services-it-solutions-single.html" class="btn btn__white btn__bordered btn__icon btn__xl">
-                            <span>Find Your Solution</span>
+                            <span>Find More Detail</span>
                             <i class="icon-arrow-right"></i>
                         </a>
                     </div><!-- /.service-item -->
@@ -275,20 +270,20 @@
                     </div><!-- /.carousel -->
                 </div><!-- /.col-lg-12 -->
             </div><!-- /.row -->
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-end align-items-center btn-wrapper">
                     <a href="it-solutions.html" class="btn btn__primary btn__link">
                         <span>Explore All Services</span><i class="icon-arrow-right icon-outlined"></i>
                     </a>
                 </div><!-- /.col-lg-7 -->
-            </div><!-- /.row -->
+            </div><!-- /.row --> --}}
         </div><!-- /.container -->
     </section><!-- /.Services Layout 2 -->
 
     <!-- ===========================
-              portfolio layout 3
-            ============================= -->
-    <section class="portfolio-layout3 pt-130">
+                  Succetss Stories layout 3
+                ============================= -->
+    {{-- <section class="portfolio-layout3 pt-130">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -396,11 +391,11 @@
                 </div><!-- /.col-lg-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-    </section><!-- /.portfolio layout 3  -->
+    </section><!-- /.portfolio layout 3  --> --}}
 
     <!-- =====================
-                   Clients
-                ======================== -->
+                       Clients
+                    ======================== -->
     <section class="clients border-top pt-50 pb-50">
         <div class="container">
             <div class="row align-items-center">
@@ -442,8 +437,8 @@
     </section><!-- /.clients -->
 
     <!-- =========================
-                   Banner layout 3
-            =========================== -->
+                       Banner layout 3
+                =========================== -->
     <section class="banner-layout3 pt-100 pb-0">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/8.jpg" alt="background"></div>
         <div class="container">
@@ -458,20 +453,20 @@
                                 professionals.
                             </p>
                         </div><!-- /.heading -->
-                        <a href="pricing.html" class="btn btn__white btn__bordered btn__hi mb-30">Pricing & Plans</a>
+                        <a href="{{ route('pricing') }}" class="btn btn__white btn__bordered btn__hi mb-30">Pricing & Plans</a>
                     </div>
                 </div><!-- /.col-xl-6 -->
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                     <div class="banner-img">
                         <img src="{{ asset('assets/website') }}/images/banners/5.jpg" alt="banner">
-                        <a class="video__btn video__btn-white popup-video"
+                        {{-- <a class="video__btn video__btn-white popup-video"
                             href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                             <div class="video__player">
                                 <span class="video__player-animation"></span>
                                 <span class="video__player-animation video__player-animation-2"></span>
                                 <i class="fa fa-play"></i>
                             </div>
-                        </a>
+                        </a> --}}
                     </div>
                 </div><!-- /.col-xl-6 -->
             </div><!-- /.row -->
@@ -479,14 +474,14 @@
     </section><!-- /.Banner layout 3 -->
 
     <!-- =========================
-              Awards
-              =========================== -->
+                  Awards
+                  =========================== -->
     <section class="awards pt-20">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
                     <div class="heading-layout2">
-                        <h3 class="heading__title mb-50">Our awards and recognitions</h3>
+                        <h3 class="heading__title mb-50">Technologies, we are working on</h3>
                     </div>
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
@@ -568,25 +563,25 @@
     </section><!-- /.Awards -->
 
     <!-- =========================
-              Testimonials layout 2
-              =========================  -->
+                  Testimonials layout 2
+                  =========================  -->
     <section class="testimonials testimonials-layout2 pt-130 pb-130">
         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/backgrounds/13.jpg" alt="backgrounds"></div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                {{-- <div class="col-12">
                     <h2 class="heading__subtitle color-body">Ensure High Availability of Your Services</h2>
-                </div>
+                </div> --}}
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
                     <h3 class="heading__title color-white mb-40">Easy solutions for all difficult IT problems, keep
                         business
                         safe &
                         ensure high availability.</h3>
-                    <a href="{{ route('request-qoute') }}"
+                    {{-- <a href="{{ route('request-qoute') }}"
                         class="btn btn__white btn__bordered btn__icon btn__xl minwidth-170 mb-40">
                         <span>Get Started</span>
                         <i class="icon-arrow-right"></i>
-                    </a>
+                    </a> --}}
                 </div><!-- /.col-xl-5 -->
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                     <div class="slick-carousel"
@@ -673,15 +668,15 @@
     </section><!-- /.testimonials 2 -->
 
     <!-- ======================
-                  Blog Grid
-            ========================= -->
+                      Blog Grid
+                ========================= -->
     <section class="blog-grid pb-50">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                     <div class="heading text-center mb-40">
-                        <h2 class="heading__subtitle">Recent Articles</h2>
-                        <h3 class="heading__title">Resource Library</h3>
+                        {{-- <h2 class="heading__subtitle">Recent Articles</h2> --}}
+                        <h3 class="heading__title">Recent Blogs</h3>
                     </div><!-- /.heading -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->

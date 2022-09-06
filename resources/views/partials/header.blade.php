@@ -171,6 +171,10 @@
                     </li><!-- /.nav-item -->
 
                     <li class="nav__item">
+                        <a href="{{ route('technologies') }}" class="nav__item-link">Technologies</a>
+                    </li><!-- /.nav-item -->
+
+                    <li class="nav__item">
                         <a href="{{ route('blogs.index') }}" class="nav__item-link">Blogs</a>
                     </li><!-- /.nav-item -->
 
@@ -182,7 +186,7 @@
             </div><!-- /.navbar-collapse -->
             <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
                 <li class="d-none d-xl-block">
-                    <a href="{{ route('request-qoute') }}" class="btn btn__secondary action__btn-contact">Request A Quote</a>
+                    <a href="{{ route('request-qoute') }}" class="btn btn__secondary action__btn-contact">Get in Touch</a>
                 </li>
                 <li>
                     <button class="action__btn action__btn-search">

@@ -1,18 +1,18 @@
 /*--------------------------
     Project Name: Mintech
     Version: 1.0
-    Author: 7oorof 
+    Author: 7oorof
     Relase Date: October 2020
 ---------------------------*/
 /*---------------------------
       Table of Contents
     -------------------------
-    
+
     01- Global Styles
     02- Helper Classes
     03- Background & Colors
     04- Typography
-    05- page title 
+    05- page title
     06- Buttons
     07- Forms
     08- Tabs
@@ -21,7 +21,7 @@
     11- Pagination
     12- Lists
     13- Animations
-    14- Header & Navbar 
+    14- Header & Navbar
     15- Accordions
     16- Banners
     17- Footer
@@ -45,9 +45,9 @@
     35- Careers
     36- Services
     37- Work Process
-    
+
 ----------------------------*/
-/*-------------------------- 
+/*--------------------------
       Global Styles
 ---------------------------*/
 body {
@@ -257,7 +257,7 @@ select {
 }
 
 /*----------------------
-     Dividers 
+     Dividers
 ------------------------*/
 .divider {
   display: inline-block;
@@ -1166,7 +1166,7 @@ h6 {
 }
 
 /*-------------------------
-    page title 
+    page title
 -------------------------*/
 .header-transparent + .page-title {
   margin-top: -100px;
@@ -2002,7 +2002,7 @@ input[type=radio] {
   }
 }
 
-/*------------------- 
+/*-------------------
     Icons
 ------------------*/
 .social-icons {
@@ -2480,7 +2480,7 @@ input[type=radio] {
 }
 
 /*----------------------------
-     Header & Navbar 
+     Header & Navbar
 -----------------------------*/
 .header {
   position: relative;
@@ -3643,8 +3643,8 @@ input[type=radio] {
 }
 
 .footer .footer-primary {
-  padding-top: 85px;
-  padding-bottom: 65px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .footer .footer-contact {
@@ -3966,7 +3966,7 @@ input[type=radio] {
 }
 
 /*------------------------
-    Slider 
+    Slider
 --------------------------*/
 .header-transparent + .slider {
   margin-top: -100px;
@@ -4656,7 +4656,7 @@ input[type=radio] {
 }
 
 /*-----------------------
-     fancybox 
+     fancybox
 ------------------------*/
 .fancybox-item {
   position: relative;
@@ -7201,7 +7201,7 @@ input[type=radio] {
 }
 
 /*-----------------------
-    Services 
+    Services
 --------------------------*/
 .service-item {
   position: relative;

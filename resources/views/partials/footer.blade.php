@@ -39,6 +39,8 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.footer-contact -->
+
+
     <div class="footer-primary">
         <div class="container">
             <div class="row">
@@ -114,6 +116,7 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.footer-primary -->
+    
     <div class="footer-secondary">
         <div class="container">
             <div class="row">
