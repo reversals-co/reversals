@@ -47,7 +47,7 @@
                 <div class="col-12">
                     <nav class="nav nav-tabs justify-content-center">
                         <a href="{{ route('about-us') }}" class="nav__link active">About Us</a>
-                        <a href="why-us.html" class="nav__link">Why Choose Us</a>
+                        <a href="why-us.html" class="nav__link">Why Choose us</a>
                         <a href="leadership-team.html" class="nav__link">Leadership Team</a>
                         <a href="awards.html" class="nav__link">Awards & Recognition</a>
                         <a href="pricing.html" class="nav__link">Pricing & Plans</a>
