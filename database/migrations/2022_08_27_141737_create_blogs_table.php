@@ -37,6 +37,7 @@ return new class extends Migration
             $table->foreignId('admin_id')->nullable();
             $table->foreign('admin_id')->references('id')->on('admins')->onDelete('set null');
 
+            $table->timestamp('publish_date')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

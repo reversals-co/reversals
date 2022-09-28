@@ -14,7 +14,8 @@ class BlogController extends Controller
      */
     public function index()
     {
-        return view('pages.blogs.index');
+        $blogs = Blog::paginate(9);
+        return view('pages.blogs.index', compact('blogs'));
     }
 
     /**
@@ -44,9 +45,9 @@ class BlogController extends Controller
      * @param  \App\Models\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show(Blog $blog)
     {
-        return view('pages.blogs.show');
+        return view('pages.blogs.show', compact('blog'));
     }
 
     /**

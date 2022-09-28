@@ -18,7 +18,8 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug')->unique();
             $table->longText('summary')->nullable();
-            $table->string('image')->default('banner.png');
+            $table->string('image')->nullable();
+            $table->string('thumbnail')->nullable();
             $table->longText('description')->nullable();
 
             $table->foreignId('admin_id')->nullable();

@@ -5,6 +5,7 @@ namespace Database\Factories;
 use App\Models\Admin;
 use App\Models\BlogCategory;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Blog>
@@ -18,19 +19,22 @@ class BlogFactory extends Factory
      */
     public function definition()
     {
+        $title = $this->faker->sentence();
+        $image = $this->faker->image(public_path('storage/website/images/blogs'), 750, 440, null, false);
+        $thumbnail = $this->faker->image(public_path('storage/website/images/blogs'), 350, 236, null, false);
         return [
-            'title' => $this->faker->sentence(),
+            'title' => $title,
             'author_name' => $this->faker->name(),
             'summary' => $this->faker->sentence(),
             'description' => $this->faker->paragraph(),
-            'slug' => $this->faker->slug(),
-            'image' =>  $this->faker->image('public/storage/images/blogs', 750, 440, null, false),
-            'thumbnail' => $this->faker->image('public/storage/images/blogs/thumbnail', 350, 236, null, false),
+            'slug' => Str::slug($title),
+            'image' =>  $image ? $image : null,
+            'thumbnail' => $thumbnail ? $thumbnail : null,
             'meta_tag_title' => $this->faker->sentence(),
             'meta_tag_keywords' => $this->faker->sentence(),
             'meta_tag_description' => $this->faker->paragraph(),
             'is_active' => $this->faker->randomElement([true, false]),
-
+            'publish_date' => $this->faker->date(),
             'blog_category_id' => BlogCategory::pluck('id')->random(),
             'admin_id' => Admin::pluck('id')->random(),
         ];
