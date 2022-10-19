@@ -19,12 +19,16 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
                     <h1 class="pagetitle__heading">About Us</h1>
-                    <p class="pagetitle__desc">We are experienced professionals who understand that It services is changing,
-                        and
-                        are true partners who care about your success. Our team provides a consultative approach on emerging
-                        technology.
+                    <p class="pagetitle__desc">Reversals is a trusted group of people that provide services to their clients 
+                        with the best of the technological skills. We always believe on the better way to do all the 
+                        development and other IT work. Our targeted, sound and innovative approach comes from the accumulative 
+                    expertise of our team members. Reversals' team as a results of their 
+                    combined sensible expertise with  excellent technology delivery capabilities, 
+                    we have satisfied our Client’s business necessities, propose IT and pratical methods in line. 
+                    Through the utilization of latest innovative Technologies we have recieved immense level 
+                    of appreciation from our clients.
                     </p>
-                    <a href="projects-grid.html" class="btn btn__primary mr-30">Our Services</a>
+                    <a href="projects-grid.html" class="btn btn__primary mr-30">Services we offer</a>
                     <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                         <div class="video__player">
                             <span class="video__player-animation"></span>
@@ -47,7 +51,7 @@
                 <div class="col-12">
                     <nav class="nav nav-tabs justify-content-center">
                         <a href="{{ route('about-us') }}" class="nav__link active">About Us</a>
-                        <a href="why-us.html" class="nav__link">Why Choose us</a>
+                        <a href="why-us.html" class="nav__link">Why Choose Us</a>
                         <a href="leadership-team.html" class="nav__link">Leadership Team</a>
                         <a href="awards.html" class="nav__link">Awards & Recognition</a>
                         <a href="pricing.html" class="nav__link">Pricing & Plans</a>
@@ -67,7 +71,7 @@
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-12 col-lg-6">
                     <div class="heading-layout2 mb-30">
-                        <h2 class="heading__subtitle">Trusted By The World's Best Organizations</h2>
+                        <h2 class="heading__subtitle">Team of Trusted People</h2>
                         <h3 class="heading__title mb-30">Our technology allows you to offer latest software to your possible
                             customers!
                         </h3>
@@ -80,7 +84,7 @@
                             ready to help.</p>
                     </div><!-- /heading -->
                     <a href="{{ route('about-us') }}" class="btn btn__primary btn__xl btn__icon mb-30">
-                        <span>More About Us</span>
+                        <span>Learn More</span>
                         <i class="icon-arrow-right"></i>
                     </a>
                     <img src="{{ asset('assets/website') }}/images/about/singnture.png" alt="singnture" class="d-block">
@@ -122,14 +126,14 @@
         <div class="container">
             <div class="row heading heading-layout2 mb-90">
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                    <h2 class="heading__subtitle">Explore Our Great History!!</h2>
+                   <!--  <h2 class="heading__subtitle">Explore Our Great History!!</h2> -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                    <h3 class="heading__title color-white">One of the world's largest IT Providers since 2005.</h3>
+                    <h3 class="heading__title color-white">Best in Delivering IT Solutions.</h3>
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
-        <div class="timeline-bar"></div>
+        <!-- <div class="timeline-bar"></div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -207,7 +211,7 @@
                     </div>
                 </div><!-- /.col-lg-12 -->
             </div><!-- /.row -->
-        </div><!-- /.container -->
+        </div><!-- /.container --> -->
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
@@ -226,15 +230,15 @@
                     <div class="cta-banner bg-overlay bg-overlay-primary">
                         <div class="bg-img"><img src="{{ asset('assets/website') }}/images/banners/4.jpg"
                                 alt="background"></div>
-                        <h4 class="cta-banner__title">Perfect Solutions That Your Business Demands!</h4>
-                        <p class="cta-banner__desc">From network and device management to security, we're bringing IT
+                        <h4 class="cta-banner__title">Perfect Partner For Your Business Model!</h4>
+                        <p class="cta-banner__desc">From development to management of business and project, we're bringing IT
                             together for
-                            an integrated, overarching approach.</p>
+                            an innovative and inspiring experience.</p>
                         <div class="d-flex flex-wrap">
-                            <a href="#" class="btn btn__secondary btn__secondary-style2 btn__xl mr-20">Request A
-                                Demo</a>
+                            <!-- <a href="#" class="btn btn__secondary btn__secondary-style2 btn__xl mr-20">Request A
+                                Demo</a> -->
                             <a href="#" class="btn btn__white btn__bordered btn__xl btn__icon">
-                                <span>Get Started</span>
+                                <span>Let's Connect</span>
                                 <i class="icon-arrow-right"></i>
                             </a>
                         </div>
@@ -252,7 +256,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5">
                     <div class="heading-layout2">
-                        <h3 class="heading__title mb-50">Our awards and recognitions</h3>
+                        <h3 class="heading__title mb-50">Technology Catalogue</h3>
                     </div>
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
@@ -557,7 +561,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                     <div class="heading text-center mb-40">
                         <h2 class="heading__subtitle">Recent Articles</h2>
-                        <h3 class="heading__title">Resource Library</h3>
+                        <h3 class="heading__title">Technology Feed</h3>
                     </div><!-- /.heading -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
