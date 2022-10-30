@@ -14,7 +14,7 @@
         <div class="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0"
             data-slick='{"slidesToShow":"1", "arrows": false, "dots":"true", data-autoplay="true", "speed":300, "fade": true,"cssEase": "linear"}'>
             <div class="slide-item align-v-h bg-overlay">
-                <div class="bg-img"><img src="{{ asset('assets/website') }}/images/sliders/5.jpg" alt="slide img"></div>
+                <div class="bg-img"><img src="{{ asset('assets/website') }}/images/sliders/bg.jpg" alt="slide img"></div>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">

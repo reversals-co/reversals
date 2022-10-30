@@ -5,11 +5,11 @@
 
 <body>
     <div class="wrapper">
-        <div class="preloader">
+        {{-- <div class="preloader">
             <div class="loading">
                 <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
             </div>
-        </div><!-- /.preloader -->
+        </div><!-- /.preloader --> --}}
 
         @include('partials.header')
 
